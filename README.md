@@ -1,11 +1,6 @@
 # JARVIS
 J.A.R.V.I.S is a virtual assistant made using Python. 
-Libraries used :
-. SpeechRecognition
-. pyAudio
-. pyjokes
-. pywhatkit
-. pyttsx3
+Libraries used  are SpeechRecognition, pyAudio, pyjokes, pywhatkit and pyttsx3
 
 1. SpeechRecognition is  library for performing speech recognition, with support for several engines and APIs, online and offline. Speech recognition engine/API support CMU Sphinx (works offline), Google Speech Recognition, Google Cloud Speech API, Wit.ai, Microsoft Azure Speech, Microsoft Bing Voice Recognition (Deprecated), Houndify API, IBM Speech to Text, Snowboy Hotword Detection (works offline), Tensorflow, Vosk API (works offline), OpenAI whisper (works offline), Whisper API.
 Syntax : pip install SpeechRecognition
