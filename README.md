@@ -1,56 +1,34 @@
 # J.A.R.V.I.S - Python Virtual Assistant
+
 J.A.R.V.I.S (Just A Rather Very Intelligent System) is a virtual assistant built using Python, designed to perform various tasks through voice commands. It utilizes several Python libraries to enable features such as speech recognition, text-to-speech conversion, joke retrieval, and automation for WhatsApp and YouTube.
 
-Features
-Speech Recognition: J.A.R.V.I.S supports multiple speech recognition engines/APIs, including CMU Sphinx, Google Speech Recognition, Wit.ai, and more. This allows users to interact with the assistant through voice commands.
+## Features
 
-Audio I/O with PyAudio: The PyAudio library provides Python bindings for PortAudio v19, enabling J.A.R.V.I.S to play and record audio on different platforms, such as GNU/Linux, Microsoft Windows, and Apple macOS.
+- **Speech Recognition:** J.A.R.V.I.S supports multiple speech recognition engines/APIs, including CMU Sphinx, Google Speech Recognition, Wit.ai, and more. This allows users to interact with the assistant through voice commands.
 
-Programmer Jokes with PyJokes: J.A.R.V.I.S can lighten the mood by providing one-line jokes for programmers, thanks to the PyJokes module.
+- **Audio I/O with PyAudio:** The PyAudio library provides Python bindings for PortAudio v19, enabling J.A.R.V.I.S to play and record audio on different platforms, such as GNU/Linux, Microsoft Windows, and Apple macOS.
 
-WhatsApp and YouTube Automation with PyWhatKit: This feature-rich Python library facilitates automation for WhatsApp and YouTube, making it easier to perform tasks on these platforms.
+- **Programmer Jokes with PyJokes:** J.A.R.V.I.S can lighten the mood by providing one-line jokes for programmers, thanks to the PyJokes module.
 
-Text-to-Speech Conversion with Pyttsx3: J.A.R.V.I.S uses Pyttsx3 to convert text into speech. Unlike other libraries, Pyttsx3 works offline and is compatible with both Python 2 and 3.
+- **WhatsApp and YouTube Automation with PyWhatKit:** This feature-rich Python library facilitates automation for WhatsApp and YouTube, making it easier to perform tasks on these platforms.
 
-Installation
+- **Text-to-Speech Conversion with Pyttsx3:** J.A.R.V.I.S uses Pyttsx3 to convert text into speech. Unlike other libraries, Pyttsx3 works offline and is compatible with both Python 2 and 3.
+
+## Installation
+
 To set up the J.A.R.V.I.S virtual assistant, follow these steps:
 
-Install SpeechRecognition:
+1. Install SpeechRecognition:
+''' pip install SpeechRecognition '''
+   
+2. Install PyAudio:
+''' pip install pyaudio '''
+   
+3. Install PyJokes:
+''' pip install pyjokes '''
 
-Copy code
-pip install SpeechRecognition
-Install PyAudio:
+4. Install PyWhatKit:
+''' pip install pywhatkit '''
 
-Copy code
-pip install pyaudio
-Install PyJokes:
-
-Copy code
-pip install pyjokes
-Install PyWhatKit:
-
-Copy code
-pip install pywhatkit
-Install Pyttsx3:
-
-Copy code
-pip install pyttsx3
-Usage
-Run the J.A.R.V.I.S script:
-
-Copy code
-python jarvis.py
-Speak commands aloud, and J.A.R.V.I.S will respond accordingly.
-
-Contributing
-If you'd like to contribute to the project, please follow these guidelines:
-
-Fork the repository.
-Create a new branch for your feature or bug fix.
-Make your changes and ensure they pass any existing tests.
-Create a pull request with a clear description of your changes.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Acknowledgments
-The developers of SpeechRecognition, PyAudio, PyJokes, PyWhatKit, and Pyttsx3 for creating the excellent libraries used in this project.
+5. Install Pyttsx3:
+''' pip install pyttsx3 '''
