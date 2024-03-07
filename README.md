@@ -19,16 +19,17 @@ J.A.R.V.I.S (Just A Rather Very Intelligent System) is a virtual assistant built
 To set up the J.A.R.V.I.S virtual assistant, follow these steps:
 
 1. Install SpeechRecognition:
-''' pip install SpeechRecognition '''
+'''bash
+pip install SpeechRecognition '''
    
-2. Install PyAudio:
+3. Install PyAudio:
 ''' pip install pyaudio '''
    
-3. Install PyJokes:
+4. Install PyJokes:
 ''' pip install pyjokes '''
 
-4. Install PyWhatKit:
+5. Install PyWhatKit:
 ''' pip install pywhatkit '''
 
-5. Install Pyttsx3:
+6. Install Pyttsx3:
 ''' pip install pyttsx3 '''
