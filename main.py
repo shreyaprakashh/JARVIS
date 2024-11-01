@@ -21,22 +21,22 @@ def take_command():
             voice = listener.listen(source)
             command = listener.recognize_google(voice)
             command = command.lower()
-            if 'jarvis' in command:
-                command = command.replace('jarvis', '')
+            if 'veda' in command:
+                command = command.replace('veda', '')
                 print(command)
     except:
         pass
     return command
 
 
-def run_jarvis():
+def run_veda():
     command = take_command()
     print(command)
-    if 'hi jarvis' in command:
+    if 'hi veda' in command:
         talk('Hi! How may I help you?')
 
     elif 'alexa' in command:
-        talk('who is alexa? I am jarvis')
+        talk('who is alexa? I am veda')
 
     elif 'play' in command:
         song = command.replace('play', '')
@@ -65,4 +65,4 @@ def run_jarvis():
 
 
 while True:
-    run_jarvis()
+    run_veda()
